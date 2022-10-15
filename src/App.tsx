@@ -15,14 +15,19 @@ function App() {
     }, 1000);
   });
 
+  const days = timer[0];
+  const hours = timer[1];
+  const minutes = timer[2];
+  const seconds = timer[3];
+
   return (
     <div className="App">
       <h1>Launching soon</h1>
       <header className="App-header">
-        <Tile time="Days" number={timer[0]} />
-        <Tile time="Hours" number={timer[1]} />
-        <Tile time="Minutes" number={timer[2]} />
-        <Tile time="Seconds" number={timer[3]} />
+        <Tile time={days == 1 ? "Day" : "Days"} number={days} />
+        <Tile time={hours == 1 ? "Hour" : "Hours"} number={hours} />
+        <Tile time={minutes == 1 ? "Minute" : "Minutes"} number={minutes} />
+        <Tile time={seconds == 1 ? "Second" : "Seconds"} number={seconds} />
       </header>
     </div>
   );
