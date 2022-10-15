@@ -19,21 +19,22 @@
 }
 
 .App-header {
-  background-color: #1e1d29;
-  min-height: 87vh;
+  background-color: white;
+  min-height: 85vh;
   display: flex;
   flex-direction: row;
   gap: 32px;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #060606;
+  background-image: url(../public/dots-background.svg);
 }
 
 @media (max-width: 768px) {
   .App-header {
     flex-direction: column;
-    min-height: 92vh;
+    min-height: 85vh;
   }
 
   .heading-container {

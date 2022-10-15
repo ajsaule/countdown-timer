@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import "./App.scss";
+import { countdown } from "./helpers/countdown";
+
 import Tile from "./components/Tile";
 
-import { countdown } from "./helpers/countdown";
+import "./App.scss";
 
 function App() {
   const [timer, setTimer] = useState([]);
