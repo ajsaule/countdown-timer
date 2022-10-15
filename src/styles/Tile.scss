@@ -1,0 +1,31 @@
+.tile-container {
+  // background: #343650;
+  // border-radius: 8px;
+  // height: 140px;
+  // width: auto;
+  // z-index: 15;
+
+  &:after {
+    content: "";
+    height: 150px;
+    width: 148px;
+    background: #191a23;
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  .tile-top-half {
+    height: 70px;
+    width: 148px;
+    border-radius: 8px 8px 0px 0px;
+    opacity: 0.5;
+    border-bottom: 1px solid #00000080;
+  }
+
+  .numbers {
+    font-size: 80px;
+    position: relative;
+    top: -53px;
+    color: #fb5e84;
+  }
+}
