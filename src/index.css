@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
 
 body {
   margin: 0;
-  font-family: "Red Hat Text";
+  /* font-family: "Red Hat Text"; */
+  font-family: "Silkscreen", cursive;
   font-style: normal;
-  font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

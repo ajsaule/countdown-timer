@@ -22,8 +22,12 @@ function App() {
 
   return (
     <div className="App">
-      <span />
-      <a href="mailto:andrejsaue8@gmail.com">Contact us</a>
+      <div className="heading-container">
+        <div>
+          <span />
+          <a href="mailto:andrejsaue8@gmail.com">Contact us</a>
+        </div>
+      </div>
       <header className="App-header">
         <Tile time={days == 1 ? "Day" : "Days"} number={days} />
         <Tile time={hours == 1 ? "Hour" : "Hours"} number={hours} />

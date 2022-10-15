@@ -1,14 +1,23 @@
 .App {
   text-align: center;
 
-  > span {
-    content: url(../public/tiny-hero.jpeg);
+  .heading-container {
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      > span {
+        content: url(../public/tiny-hero.jpeg);
+        height: 150px;
+      }
+    }
   }
 }
 
 .App-header {
   background-color: #1e1d29;
-  min-height: 84vh;
+  min-height: 87vh;
   display: flex;
   flex-direction: row;
   gap: 32px;
