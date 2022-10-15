@@ -35,6 +35,7 @@ function App() {
         <Tile time={minutes == 1 ? "Minute" : "Minutes"} number={minutes} />
         <Tile time={seconds == 1 ? "Second" : "Seconds"} number={seconds} />
       </header>
+      <span className="rocket">🚀</span>
     </div>
   );
 }

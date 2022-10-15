@@ -16,11 +16,18 @@
       }
     }
   }
+
+  .rocket {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-45deg);
+  }
 }
 
 .App-header {
   background-color: white;
-  min-height: 85vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -34,7 +41,6 @@
 @media (max-width: 768px) {
   .App-header {
     flex-direction: column;
-    min-height: 85vh;
   }
 
   .heading-container {
