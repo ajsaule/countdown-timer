@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import "./App.scss";
 import Tile from "./components/Tile";
 
 import { countdown } from "./helpers/countdown";
@@ -22,7 +22,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Launching soon</h1>
+      <span />
+      <a href="mailto:andrejsaue8@gmail.com">Contact us</a>
       <header className="App-header">
         <Tile time={days == 1 ? "Day" : "Days"} number={days} />
         <Tile time={hours == 1 ? "Hour" : "Hours"} number={hours} />

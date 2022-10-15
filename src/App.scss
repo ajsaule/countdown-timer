@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+
+  > span {
+    content: url(../public/tiny-hero.jpeg);
+  }
 }
 
 .App-header {
