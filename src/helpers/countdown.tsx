@@ -1,6 +1,6 @@
 export const countdown = () => {
   const currentDate = new Date().getTime();
-  const endDate = new Date("10/01/2023");
+  const endDate = new Date("01/01/2023");
   // @ts-ignore
   const distance = endDate - currentDate;
 
