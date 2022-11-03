@@ -21,6 +21,8 @@ function App() {
   const minutes = timer[2];
   const seconds = timer[3];
 
+  const takeoff = (360 / days) * 20;
+
   return (
     <div className="App">
       <div className="heading-container">
@@ -35,7 +37,9 @@ function App() {
         <Tile time={minutes == 1 ? "Minute" : "Minutes"} number={minutes} />
         <Tile time={seconds == 1 ? "Second" : "Seconds"} number={seconds} />
       </header>
-      <span className="rocket">🚀</span>
+      <span style={{ bottom: takeoff }} className="rocket">
+        🚀
+      </span>
     </div>
   );
 }
